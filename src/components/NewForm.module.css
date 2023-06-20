@@ -1,0 +1,67 @@
+.form {
+    padding: 2rem 2rem 1rem 2rem;
+    max-width: 40rem;
+    margin: 2rem auto;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #30347e, #4377c0);
+}
+
+.inputGroup {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2rem;
+}
+
+.form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+}
+
+.form input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #4377c0;
+    border-radius: 0.25rem;
+    background-color: transparent;
+    color: #c2cde9;
+    font-size: 1rem;
+}
+
+.actions {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    background: linear-gradient(180deg, #30347e, #262a72);
+    color: #e5e9f8;
+    font-family: 'Roboto Condensed', sans-serif;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.buttonAlt {
+    font-family: 'Roboto Condensed', sans-serif;
+    border: none;
+    background: transparent;
+    color: #e5e9f8;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button:hover {
+    background: linear-gradient(180deg, #30347e7e, #262a7290);
+}
+
+.buttonAlt:hover {
+    background: transparent;
+    color: #bdc9f3;
+}
